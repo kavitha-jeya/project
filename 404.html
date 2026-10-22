@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>404 — Page Under Construction | DS Construction</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <style>
+    .error-page-wrapper {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      background: radial-gradient(circle at center, #0B2648 0%, #071D38 60%, #041122 100%);
+      color: #FFFFFF;
+      padding: 40px 20px;
+      position: relative;
+    }
+    .error-code {
+      font-family: var(--font-heading);
+      font-size: clamp(5rem, 15vw, 10rem);
+      font-weight: 900;
+      color: var(--orange-primary);
+      line-height: 1;
+      margin-bottom: 10px;
+      text-shadow: 0 10px 30px rgba(255, 151, 0, 0.3);
+    }
+    .error-headline {
+      font-size: clamp(1.5rem, 3vw, 2.25rem);
+      font-weight: 800;
+      margin-bottom: 16px;
+      text-transform: uppercase;
+      color: #FFFFFF;
+    }
+    .error-desc {
+      font-size: 1.05rem;
+      color: #94A3B8;
+      max-width: 540px;
+      line-height: 1.6;
+      margin-bottom: 36px;
+    }
+    .error-actions {
+      display: flex;
+      gap: 16px;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="error-page-wrapper">
+    <div style="margin-bottom: 30px;">
+      <a href="index.html">
+        <img src="assets/images/logo.svg" alt="DS Construction" width="240" height="54">
+      </a>
+    </div>
+
+    <div class="error-code">404</div>
+    <h1 class="error-headline">BLUEPRINT NOT FOUND</h1>
+    <p class="error-desc">
+      The page or structural elevation you are looking for does not exist or has been relocated during site planning. Return to the homepage or contact Managing Director Dillybabu directly.
+    </p>
+
+    <div class="error-actions">
+      <a href="index.html" class="btn btn-primary">
+        <span>Return to Homepage</span>
+        <svg class="btn-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"><polyline points="9 18 15 12 9 6"></polyline></svg>
+      </a>
+      <a href="https://wa.me/917200559079?text=Hello%20DS%20Construction,%20I%20would%20like%20to%20discuss%20my%20construction%20project." class="btn btn-secondary" target="_blank" rel="noopener noreferrer">
+        <span>Chat on WhatsApp</span>
+      </a>
+    </div>
+  </div>
+</body>
+</html>

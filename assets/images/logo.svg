@@ -1,0 +1,105 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 540 120" width="100%" height="100%">
+  <defs>
+    <linearGradient id="orangeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFB338"/>
+      <stop offset="100%" stop-color="#FF9700"/>
+    </linearGradient>
+    <linearGradient id="goldGlow" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FF9700" stop-opacity="0.3"/>
+      <stop offset="100%" stop-color="#FF9700" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Logo Mark Icon Container -->
+  <g transform="translate(10, 10)">
+    <!-- Circular Orange Ring -->
+    <circle cx="50" cy="50" r="46" fill="#071D38" stroke="url(#orangeGrad)" stroke-width="4.5"/>
+    <circle cx="50" cy="50" r="40" fill="none" stroke="#FF9700" stroke-width="1" stroke-dasharray="2 3" opacity="0.6"/>
+
+    <!-- Geometric Building Silhouettes -->
+    <!-- Building 1 (Left low) -->
+    <rect x="25" y="52" width="14" height="28" fill="#F4F6F8" opacity="0.85" rx="1"/>
+    <rect x="28" y="56" width="3" height="4" fill="#071D38"/>
+    <rect x="33" y="56" width="3" height="4" fill="#071D38"/>
+    <rect x="28" y="63" width="3" height="4" fill="#071D38"/>
+    <rect x="33" y="63" width="3" height="4" fill="#071D38"/>
+    <rect x="28" y="70" width="3" height="4" fill="#071D38"/>
+    <rect x="33" y="70" width="3" height="4" fill="#071D38"/>
+
+    <!-- Building 2 (Center tall) -->
+    <polygon points="41,80 41,38 59,38 59,80" fill="#FFFFFF"/>
+    <!-- Center building grid windows -->
+    <rect x="44" y="42" width="4" height="5" fill="#071D38"/>
+    <rect x="52" y="42" width="4" height="5" fill="#071D38"/>
+    <rect x="44" y="50" width="4" height="5" fill="#071D38"/>
+    <rect x="52" y="50" width="4" height="5" fill="#071D38"/>
+    <rect x="44" y="58" width="4" height="5" fill="#071D38"/>
+    <rect x="52" y="58" width="4" height="5" fill="#071D38"/>
+    <rect x="44" y="66" width="4" height="5" fill="#071D38"/>
+    <rect x="52" y="66" width="4" height="5" fill="#071D38"/>
+
+    <!-- Building 3 (Right angled/tiered) -->
+    <polygon points="61,80 61,46 75,46 75,80" fill="#F4F6F8" opacity="0.9"/>
+    <rect x="64" y="51" width="3.5" height="5" fill="#071D38"/>
+    <rect x="69" y="51" width="3.5" height="5" fill="#071D38"/>
+    <rect x="64" y="59" width="3.5" height="5" fill="#071D38"/>
+    <rect x="69" y="59" width="3.5" height="5" fill="#071D38"/>
+    <rect x="64" y="67" width="3.5" height="5" fill="#071D38"/>
+    <rect x="69" y="67" width="3.5" height="5" fill="#071D38"/>
+
+    <!-- Construction Tower Crane (Superimposed) -->
+    <!-- Mast (Vertical Lattice) -->
+    <line x1="68" y1="18" x2="68" y2="46" stroke="#FF9700" stroke-width="2.5"/>
+    <line x1="72" y1="18" x2="72" y2="46" stroke="#FF9700" stroke-width="2.5"/>
+    <!-- Lattice cross bars -->
+    <line x1="68" y1="23" x2="72" y2="28" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="72" y1="23" x2="68" y2="28" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="68" y1="31" x2="72" y2="36" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="72" y1="31" x2="68" y2="36" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="68" y1="39" x2="72" y2="44" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="72" y1="39" x2="68" y2="44" stroke="#FF9700" stroke-width="1.2"/>
+
+    <!-- Operator Cabin & Slewing unit -->
+    <rect x="65" y="16" width="10" height="7" fill="#FF9700" rx="1"/>
+
+    <!-- Tower Crane Apex & Tower Head -->
+    <polygon points="70,9 66,16 74,16" fill="#FF9700"/>
+
+    <!-- Crane Jib (Long Horizontal Arm extending left) -->
+    <line x1="16" y1="17" x2="88" y2="17" stroke="#FF9700" stroke-width="3"/>
+    <!-- Pendant tie cables from apex to jib -->
+    <line x1="70" y1="9" x2="28" y2="17" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="70" y1="9" x2="52" y2="17" stroke="#FF9700" stroke-width="1.2"/>
+    <line x1="70" y1="9" x2="84" y2="17" stroke="#FF9700" stroke-width="1.2"/>
+
+    <!-- Counterweight (Right rear arm) -->
+    <rect x="80" y="14" width="7" height="6" fill="#FFFFFF" rx="0.5"/>
+
+    <!-- Hoist Trolley, Cable & Hook (Descending towards center building) -->
+    <rect x="36" y="17" width="5" height="2.5" fill="#FFFFFF"/>
+    <line x1="38.5" y1="19.5" x2="38.5" y2="32" stroke="#FFFFFF" stroke-width="1.2" stroke-dasharray="1 1"/>
+    <!-- Crane Hook -->
+    <path d="M38.5,32 C38.5,35 41.5,35 41.5,32" fill="none" stroke="#FF9700" stroke-width="1.8" stroke-linecap="round"/>
+
+    <!-- Foundation Ground Line with Orange Baseline -->
+    <line x1="20" y1="80" x2="80" y2="80" stroke="#FF9700" stroke-width="3.5" stroke-linecap="round"/>
+  </g>
+
+  <!-- Typography Lockup -->
+  <g transform="translate(125, 20)">
+    <!-- DS Letters (Bold Architectural Display) -->
+    <text x="0" y="44" font-family="'Plus Jakarta Sans', 'Inter', 'Arial Black', sans-serif" font-size="46" font-weight="900" letter-spacing="2" fill="#FFFFFF">DS</text>
+    
+    <!-- Accent Divider Bar -->
+    <rect x="76" y="12" width="3.5" height="34" fill="#FF9700" rx="1.75"/>
+    
+    <!-- CONSTRUCTION -->
+    <text x="90" y="44" font-family="'Plus Jakarta Sans', 'Inter', 'Segoe UI', sans-serif" font-size="34" font-weight="800" letter-spacing="4" fill="#FFFFFF">CONSTRUCTION</text>
+    
+    <!-- Tagline & Brand Promise -->
+    <text x="2" y="68" font-family="'Inter', sans-serif" font-size="11.5" font-weight="700" letter-spacing="3" fill="#FF9700">BUILDING EXCELLENCE • DELIVERING TRUST</text>
+    
+    <!-- Subtitle: Location & Leadership -->
+    <text x="2" y="85" font-family="'Inter', sans-serif" font-size="10" font-weight="500" letter-spacing="1.2" fill="#94A3B8">MANAGED BY DILLYBABU  |  CHENNAI</text>
+  </g>
+</svg>
